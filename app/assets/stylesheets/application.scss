@@ -12,4 +12,18 @@
  *
 
  */
+
 @import "bootstrap";
+@import "welcome";
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: purple;
+  font-weight: bold;
+}
+
+// # needs ID
+#logo:hover {
+  color: orange;
+  text-decoration: none;
+}
